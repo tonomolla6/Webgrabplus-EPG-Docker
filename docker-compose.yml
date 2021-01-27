@@ -10,5 +10,6 @@ services:
     volumes:
       - ./config:/config
       - ./data:/data
+      - ./config/movistarplus.es.ini:/config/siteini.pack/Spain/movistarplus.es.ini
     restart: unless-stopped
     

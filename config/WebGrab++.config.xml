@@ -15,7 +15,7 @@
   <timespan>0</timespan>
   <update>f</update>
  
- <channel update="i" site="movistarplus.es" site_id="TVE" xmltv_id="LA 1">LA 1</channel>
+<channel update="i" site="movistarplus.es" site_id="TVE" xmltv_id="LA 1">LA 1</channel>
 <channel update="i" site="movistarplus.es" site_id="LA2" xmltv_id="LA 2">LA 2</channel>
 <channel update="i" site="movistarplus.es" site_id="A3" xmltv_id="Antena 3">Antena 3</channel>
 <channel update="i" site="movistarplus.es" site_id="C4" xmltv_id="Cuatro">Cuatro</channel>
