@@ -1,0 +1,14 @@
+version: "2.1"
+services:
+  webgrabplus:
+    image: ghcr.io/linuxserver/webgrabplus
+    container_name: webgrabplus
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+    volumes:
+      - ./config:/config
+      - ./data:/data
+    restart: unless-stopped
+    

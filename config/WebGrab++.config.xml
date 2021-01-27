@@ -1,0 +1,65 @@
+﻿<?xml version="1.0"?>
+<settings>
+   
+  <!-- for detailed info about the settings see http://webgrabplus.com/documentation/configuration/webgrabconfigxml 
+  and http://webgrabplus.com/sites/default/files/downloads/Misc/Documented_Configuration_Files.zip -->
+   
+  <filename>/data/guide.xml</filename>
+  <mode></mode>
+  <postprocess grab="y" run="n">rex</postprocess>
+  <user-agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 Edg/79.0.309.71</user-agent>
+  <!-- <decryptkey site="plus.es"></decryptkey> -->
+  <license wg-username="tonomolla6" registered-email="tonomollag6@gmail.com" password="123456aA." />
+  <logging>on</logging>
+  <retry time-out="5">4</retry>
+  <timespan>0</timespan>
+  <update>f</update>
+ 
+<!-- <channel update="i" site="guia-tv.es" site_id="la-2" xmltv_id="La 2">La 2</channel>
+<channel update="i" site="guia-tv.es" site_id="antena-3" xmltv_id="Antena 3">Antena 3</channel>
+<channel update="i" site="guia-tv.es" site_id="cuatro" xmltv_id="Cuatro">Cuatro</channel>
+<channel update="i" site="guia-tv.es" site_id="telecinco" xmltv_id="Tele 5">Tele 5</channel> -->
+
+<!-- [Error   ] no shows in indexpage! -->
+
+    <!-- <channel update="i" site="rtve.es" site_id="CTV_LA1" xmltv_id="La 1">La 1</channel>
+    <channel update="i" site="rtve.es" site_id="CTV_LA2" xmltv_id="La 2">La 2</channel>
+    <channel update="i" site="rtve.es" site_id="CTV_C24H" xmltv_id="Canal 24H">Canal 24H</channel> -->
+
+<!-- (   1/5   ) VODAFONE.ES - chan. (xmltv_id=Telecinco HD) - skipped  encrypted SiteIni -->
+<!-- 
+    <channel update="i" site="vodafone.es" site_id="447" xmltv_id="Telecinco HD">Telecinco HD</channel>
+    <channel update="i" site="vodafone.es" site_id="448" xmltv_id="Antena 3 HD">Antena 3 HD</channel>
+    <channel update="i" site="vodafone.es" site_id="449" xmltv_id="Telemadrid HD">Telemadrid HD</channel>
+    <channel update="i" site="vodafone.es" site_id="450" xmltv_id="La Sexta HD">La Sexta HD</channel>
+    <channel update="i" site="vodafone.es" site_id="454" xmltv_id="Cuatro HD">Cuatro HD</channel> -->
+
+<!-- [Error   ] no shows in indexpage! -->
+
+    <!-- <channel update="i" site="plus.es" site_id="T5" 	xmltv_id="Telecinco">Telecinco</channel>
+    <channel update="i" site="plus.es" site_id="TDEP" 	xmltv_id="Teledeporte">tdp</channel>
+    <channel update="i" site="plus.es" site_id="TELMAD"	xmltv_id="TeleMadrid">Telemadrid</channel>
+    <channel update="i" site="plus.es" site_id="TEN"	xmltv_id="TEN">TEN</channel>
+    <channel update="i" site="plus.es" site_id="TVE" 	xmltv_id="LA 1">La 1</channel> -->
+
+<!-- [  Debug ]    skipped  : last show, no next startime to use as stop -->
+
+    <!-- <channel update="i" site="elpais.com.E" site_id="3" xmltv_id="La 1">La 1</channel>
+    <channel update="i" site="elpais.com.E" site_id="4" xmltv_id="La 2">La 2</channel>-->
+    <channel update="i" site="elpais.com.E" site_id="496" xmltv_id="Cuatro">Cuatro</channel> 
+    <channel update="i" site="elpais.com.E" site_id="2" xmltv_id="Antena 3">Antena 3</channel>
+
+ <!-- <channel update="i" site="formulatv.com" site_id="la1" xmltv_id="La 1">La 1</channel>
+    <channel update="i" site="formulatv.com" site_id="la2" xmltv_id="La 2">La 2</channel>
+    <channel update="i" site="formulatv.com" site_id="antena3" xmltv_id="Antena 3 Televisión">Antena 3 Televisión</channel>
+    <channel update="i" site="formulatv.com" site_id="cuatro" xmltv_id="Cuatro">Cuatro</channel>
+    <channel update="i" site="formulatv.com" site_id="telecinco" xmltv_id="Telecinco">Telecinco</channel> -->
+<!-- 
+    <channel update="i" site="movistarplus.es" site_id="TVE" xmltv_id="LA 1">LA 1</channel>
+    <channel update="i" site="movistarplus.es" site_id="LA2" xmltv_id="LA 2">LA 2</channel>
+    <channel update="i" site="movistarplus.es" site_id="A3" xmltv_id="Antena 3">Antena 3</channel> -->
+
+    <!-- <channel update="i" site="plus.es" site_id="13TV"	xmltv_id="13 TV">TRECE</channel>
+    <channel update="i" site="plus.es" site_id="24H"	xmltv_id="24 Horas">24h</channel>
+    <channel update="i" site="plus.es" site_id="A3"     xmltv_id="Antena 3">antena 3</channel> -->
+</settings>
