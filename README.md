@@ -3,7 +3,7 @@
 Docker de la imagen ghcr.io/linuxserver/webgrabplus para monitorizar el EPG de canales de todo el mundo.
 ## Configuracion
 El archivo de configuracion se ubica en **config/WebGrab++.config.xml**
-``` yml
+``` xml
     <!-- Ubicacion donde se generara el epg en formato xml. -->
     <filename>/data/guide.xml</filename>
     
@@ -38,7 +38,7 @@ http://webgrabplus.com/documentation/configuration/webgrabconfigxml
 ### Canales
 Para definir los canales que vamos a capturar de movistar (consultar **movistarplus.es.channels.xml**) los añadimos en el archivo de configuracion.
 
-``` yml
+``` xml
   <!-- Lista de canales -->
   <channel update="i" site="movistarplus.es" site_id="TVE" xmltv_id="LA 1">LA 1</channel>
   <channel update="i" site="movistarplus.es" site_id="LA2" xmltv_id="LA 2">LA 2</channel>
