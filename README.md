@@ -1,6 +1,18 @@
 # Webgrabplus-EPG-Docker
 
 Docker de la imagen ghcr.io/linuxserver/webgrabplus para monitorizar el EPG de canales de todo el mundo.
+
+## Ejecutar el servicio
+1. Clonamos el repositorio.
+    ``` sh
+    git clone https://github.com/tonomolla6/Webgrabplus-EPG-Docker.git
+    ```
+2. Accedemos al repositorio y ejecutamos el archivo **docker-compose.yml** con docker compose.
+    ``` sh
+    sudo docker-compose up
+    ```
+3. En **data/guide.xml** tenemos el resultado de los canales monitorizados.
+
 ## Configuracion
 El archivo de configuracion se ubica en **config/WebGrab++.config.xml**
 ``` xml
@@ -45,17 +57,6 @@ Para definir los canales que vamos a capturar de movistar (consultar **movistarp
   <channel update="i" site="movistarplus.es" site_id="A3" xmltv_id="Antena 3">Antena 3</channel>
 </settings>
 ```
-## Ejecutar el servicio
-1. Clonamos el repositorio.
-    ``` sh
-    git clone https://github.com/tonomolla6/Webgrabplus-EPG-Docker.git
-    ```
-2. Accedemos al repositorio y ejecutamos el archivo **docker-compose.yml** con docker compose.
-    ``` sh
-    sudo docker-compose up
-    ```
-3. En **data/guide.xml** tenemos el resultado de los canales monitorizados.
-
 ## Cron
 Asignamos la ejecucion de la tarea dentro del docker, en el archivo **config/wg3-cron** esta la configuracion.
 En nuestro caso ejecuta el motor de captura de datos cada 1 minuto.
