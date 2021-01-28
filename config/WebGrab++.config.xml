@@ -4,46 +4,46 @@
   <!-- for detailed info about the settings see http://webgrabplus.com/documentation/configuration/webgrabconfigxml 
   and http://webgrabplus.com/sites/default/files/downloads/Misc/Documented_Configuration_Files.zip -->
    
+  <!-- Ubicacion donde se generara el epg en formato xml. -->
   <filename>/data/guide.xml</filename>
+  
+  <!-- Modo de grabacion, en este caso mide el tiempo de cada programa actualizado o nuevo programa agregado -->
   <mode>m</mode>
-  <postprocess grab="y" run="n">rex</postprocess>
+  
+  <!-- Bot que se encargara de acceder a los sitios web a capturar los datos. -->
   <user-agent>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 Edg/79.0.309.71</user-agent>
+  
+  <!-- Key para desencripar archivos ini de canales encriptados por desarrolladores -->
   <!-- <decryptkey site="movistarplus.es"></decryptkey> -->
+  
+  <!-- Licencia de tu usuario de webgrap para activar la licencia postdonacion -->
   <license wg-username="tonomolla6" registered-email="tonomollag6@gmail.com" password="" />
+  
+  <!-- Registrar el programa -->
   <logging>on</logging>
+  
+  <!-- El valor del elemento es el número de veces que el motor volverá a intentar capturar una página -->
   <retry time-out="5">4</retry>
+  
+  <!-- El período de tiempo para el que se tomarán los programas. -->
   <timespan>0</timespan>
+  
+  <!-- El modo de captura de datos, ahora mismo tenemos f, para que sustituya el epg por uno nuevo, puede ser incrementar y tener un registro de meses... -->
   <update>f</update>
  
-<channel update="i" site="movistarplus.es" site_id="TVE" xmltv_id="LA 1">LA 1</channel>
-<channel update="i" site="movistarplus.es" site_id="LA2" xmltv_id="LA 2">LA 2</channel>
-<channel update="i" site="movistarplus.es" site_id="A3" xmltv_id="Antena 3">Antena 3</channel>
-<channel update="i" site="movistarplus.es" site_id="C4" xmltv_id="Cuatro">Cuatro</channel>
-<channel update="i" site="movistarplus.es" site_id="T5" xmltv_id="Telecinco">Telecinco</channel>
-<channel update="i" site="movistarplus.es" site_id="SEXTA" xmltv_id="La Sexta">La Sexta</channel>
-<channel update="i" site="movistarplus.es" site_id="MV3" xmltv_id="#0">#0</channel>
-<channel update="i" site="movistarplus.es" site_id="CPSER" xmltv_id="Movistar Series">Movistar Series</channel>
-<channel update="i" site="movistarplus.es" site_id="MV2" xmltv_id="Movistar Series Xtra">Movistar Series Xtra</channel>
-<channel update="i" site="movistarplus.es" site_id="FOXGE" xmltv_id="Fox">Fox</channel>
-<channel update="i" site="movistarplus.es" site_id="AXN" xmltv_id="AXN">AXN</channel>
-<channel update="i" site="movistarplus.es" site_id="TNT" xmltv_id="TNT">TNT</channel>
 
-  <!-- <channel update="i" site="elpais.com.E" site_id="3" xmltv_id="La 1">La 1</channel>
-  <channel update="i" site="elpais.com.E" site_id="4" xmltv_id="La 2">La 2</channel>
-  <channel update="i" site="elpais.com.E" site_id="2" xmltv_id="Antena 3">Antena 3</channel>
-  <channel update="i" site="elpais.com.E" site_id="496" xmltv_id="Cuatro">Cuatro</channel>
-  <channel update="i" site="elpais.com.E" site_id="1" xmltv_id="Telecinco">Telecinco</channel>
-  <channel update="i" site="elpais.com.E" site_id="510" xmltv_id="laSexta">laSexta</channel>
-  <channel update="i" site="elpais.com.E" site_id="505" xmltv_id="Clan TVE">Clan TVE</channel>
-  <channel update="i" site="elpais.com.E" site_id="509" xmltv_id="Nova">Nova</channel>
-  <channel update="i" site="elpais.com.E" site_id="508" xmltv_id="Neox">Neox</channel>
-  <channel update="i" site="elpais.com.E" site_id="841" xmltv_id="Mega">Mega</channel>
-  <channel update="i" site="elpais.com.E" site_id="506" xmltv_id="FDF Telecinco">FDF Telecinco</channel>
-  <channel update="i" site="elpais.com.E" site_id="709" xmltv_id="Energy">Energy</channel>
-  <channel update="i" site="elpais.com.E" site_id="697" xmltv_id="Divinity">Divinity</channel>
-  <channel update="i" site="elpais.com.E" site_id="665" xmltv_id="Boing">Boing</channel>
-  <channel update="i" site="elpais.com.E" site_id="175" xmltv_id="Disney Channel">Disney Channel</channel>
-  <channel update="i" site="elpais.com.E" site_id="146" xmltv_id="Discovery Channel">Discovery Channel</channel>
-  <channel update="i" site="elpais.com.E" site_id="897" xmltv_id="Gol TV">Gol TV</channel> -->
-
+  <!-- Lista de canales -->
+  <channel update="i" site="movistarplus.es" site_id="TVE" xmltv_id="LA 1">LA 1</channel>
+  <channel update="i" site="movistarplus.es" site_id="LA2" xmltv_id="LA 2">LA 2</channel>
+  <channel update="i" site="movistarplus.es" site_id="A3" xmltv_id="Antena 3">Antena 3</channel>
+  <channel update="i" site="movistarplus.es" site_id="C4" xmltv_id="Cuatro">Cuatro</channel>
+  <channel update="i" site="movistarplus.es" site_id="T5" xmltv_id="Telecinco">Telecinco</channel>
+  <channel update="i" site="movistarplus.es" site_id="SEXTA" xmltv_id="La Sexta">La Sexta</channel>
+  <channel update="i" site="movistarplus.es" site_id="MV3" xmltv_id="#0">#0</channel>
+  <channel update="i" site="movistarplus.es" site_id="CPSER" xmltv_id="Movistar Series">Movistar Series</channel>
+  <channel update="i" site="movistarplus.es" site_id="MV2" xmltv_id="Movistar Series Xtra">Movistar Series Xtra</channel>
+  <channel update="i" site="movistarplus.es" site_id="FOXGE" xmltv_id="Fox">Fox</channel>
+  <channel update="i" site="movistarplus.es" site_id="AXN" xmltv_id="AXN">AXN</channel>
+  <channel update="i" site="movistarplus.es" site_id="TNT" xmltv_id="TNT">TNT</channel>
+  <channel update="i" site="movistarplus.es" site_id="PCM" xmltv_id="Comedy Central">Comedy Central</channel>
 </settings>
